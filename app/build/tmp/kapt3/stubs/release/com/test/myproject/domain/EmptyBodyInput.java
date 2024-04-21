@@ -1,0 +1,19 @@
+package com.test.myproject.domain;
+
+import kotlinx.serialization.Serializable;
+
+@kotlinx.serialization.Serializable
+@kotlin.Metadata(mv = {1, 9, 0}, k = 1, xi = 48, d1 = {"\u0000\u0012\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0000\b\u00c7\u0002\u0018\u00002\u00020\u0001B\u0007\b\u0002\u00a2\u0006\u0002\u0010\u0002J\u000f\u0010\u0003\u001a\b\u0012\u0004\u0012\u00020\u00000\u0004H\u00c6\u0001\u00a8\u0006\u0005"}, d2 = {"Lcom/test/myproject/domain/EmptyBodyInput;", "Ljava/io/Serializable;", "()V", "serializer", "Lkotlinx/serialization/KSerializer;", "app_release"})
+public final class EmptyBodyInput implements java.io.Serializable {
+    @org.jetbrains.annotations.NotNull
+    public static final com.test.myproject.domain.EmptyBodyInput INSTANCE = null;
+    
+    private EmptyBodyInput() {
+        super();
+    }
+    
+    @org.jetbrains.annotations.NotNull
+    public final kotlinx.serialization.KSerializer<com.test.myproject.domain.EmptyBodyInput> serializer() {
+        return null;
+    }
+}
